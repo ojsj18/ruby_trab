@@ -18,8 +18,10 @@ class Resource
         estadofacade.inserir(tabela, nome, sigla)
     when "excluir"
         puts "funcao excluir na tabela #{tabela}"
+        estadofacade.excluir(tabela, nome)
     when "busca"
         puts "funcao busca na tabela #{tabela}"
+        estadofacade.buscar(tabela, nome)
     when "edita"
         puts "funcao edita na tabela #{tabela}"
     else
