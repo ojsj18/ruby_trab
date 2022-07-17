@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-$:.push './'
+$:.push '../'
 require 'estado.rb'
 
 # Método 1.1: usando a chave primária
