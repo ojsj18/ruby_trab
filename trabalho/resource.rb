@@ -4,7 +4,7 @@ class Resource
     estadofacade = EstadoFacade.new
 
     puts "< operação > < tabela > { atributo = valor }"
-    input = gets
+    input = gets.chomp
 
     input_array = input.split(/ /,-1 )
     funcao = input_array[0]
@@ -19,7 +19,7 @@ class Resource
     when "excluir"
         puts "funcao excluir na tabela #{tabela}"
         estadofacade.excluir(tabela, nome)
-    when "busca"
+    when "buscar"
         puts "funcao busca na tabela #{tabela}"
         estadofacade.buscar(tabela, nome)
     when "edita"

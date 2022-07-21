@@ -20,5 +20,5 @@ class EstadoFacade
         puts "buscar na tabela #{tabela}"
         context.buscarEstado(nome)
     end
-
+# problema era o /n no final do nome
 end
