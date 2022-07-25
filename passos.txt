@@ -1,5 +1,3 @@
-primeiro conseguir tratar a entrada
+primeiro conseguir tratar a entrada X
 depois gerar o banco e as relacoes
-depois os metodos
-
-perguntar pro professor como direciono a tabela para uma pasta
+depois os metodos Xs
