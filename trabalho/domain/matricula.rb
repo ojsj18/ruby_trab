@@ -6,7 +6,7 @@ ActiveRecord::Base.establish_connection :adapter => "sqlite3",
 
 
 class Matricula < ActiveRecord::Base 
-  belongs_to :aluno
+  belongs_to :aluno, :dependent => :destroy
 end
 
 

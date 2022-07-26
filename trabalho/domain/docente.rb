@@ -6,7 +6,7 @@ ActiveRecord::Base.establish_connection :adapter => "sqlite3",
 
 
 class Docente < ActiveRecord::Base
-  has_many :alunos    
+  has_many :alunos, :dependent => :destroy  
 end
 
 
