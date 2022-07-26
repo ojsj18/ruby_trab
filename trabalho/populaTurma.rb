@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
-$:.push '../..'
-require './domain/turma'
+require './turma'
 require 'active_record'
 
 lista_turmas = 

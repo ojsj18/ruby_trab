@@ -1,9 +1,8 @@
 # -*- coding: utf-8 -*-
-$:.push '../..'
-require './domain/docente'
-require './domain/matricula'
-require './domain/aluno'
-require './domain/turma'
+require './docente'
+require './matricula'
+require './aluno'
+require './turma'
 require 'active_record'
 
 docente = Docente.new()
