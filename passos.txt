@@ -1,3 +1,0 @@
-primeiro conseguir tratar a entrada X
-depois gerar o banco e as relacoes
-depois os metodos Xs
