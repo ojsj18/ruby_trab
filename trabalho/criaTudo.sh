@@ -5,12 +5,20 @@ echo "Ok"
 echo -n "criaMatriculas ..."
 ruby criaMatriculas.rb
 echo "Ok"
-echo -n "criaOrientadores ..."
-ruby criaOrientadores.rb
+echo -n "criaDocentes ..."
+ruby criaDocentes.rb
 echo "Ok"
 echo -n "criaTurmas ..."
 ruby criaTurmas.rb 
 echo "Ok"
 echo -n "criaAlunoTurma ..."
-ruby criaTurmaAluno.rb 
+ruby criaAlunoTurma.rb 
+echo "Ok"
+
+echo "Populando---------"
+echo "Popula turma"
+ruby populaTurma.rb
+echo "Ok"
+echo "Popula aluno, matricula e docente(orientador) e turmas"
+ruby populaAluno.rb
 echo "Ok"
